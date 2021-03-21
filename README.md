@@ -20,4 +20,3 @@ npm run build
 Sample
 ![s1](./sample.png)
 <br><b>
-Due to lack of time, **frontend** can't handle multiple intervals of opening hours, but **API** is ready for this.
