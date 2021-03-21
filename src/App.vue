@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <CreatePlace class="create_place_comp"/>
+    <Places class="places_comp"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Places from './components/Places.vue'
+import CreatePlace from './components/CreatePlace.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Places,
+    CreatePlace
   }
 }
 </script>
@@ -24,5 +26,14 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.create_place_comp{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+.places{
+  margin-left: auto;
+  margin-right: auto;
 }
 </style>
