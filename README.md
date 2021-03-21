@@ -1,4 +1,6 @@
-# places_frontend
+# Places
+> Shows information about business entries
+
 
 ## Project setup
 ```
