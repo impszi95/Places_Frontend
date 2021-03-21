@@ -16,3 +16,6 @@ npm run serve
 ```
 npm run build
 ```
+
+Sample
+![s1](./sample.png)
